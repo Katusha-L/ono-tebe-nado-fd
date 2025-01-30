@@ -1,1 +1,56 @@
+body{
+    margin:0;
+    background-color:#F8F8FF ;
 
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items:center;
+     
+
+    
+}
+
+header-menu{
+
+}
+
+main{
+    
+    
+}
+
+h1,
+h2{
+    margin:0;
+    padding:0;
+
+}
+
+footer{
+  
+
+}
+
+
+
+header-contacts{}
+
+.cover{
+    background-image: url(../images/cover.jpg);
+
+}
+
+cover-title{}
+
+.description{
+
+}
+
+button{
+
+}
+
+.lots{}
