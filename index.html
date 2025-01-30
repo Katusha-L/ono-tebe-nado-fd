@@ -13,9 +13,9 @@
     <header>
      <nav class="main-nav">
        <ul>
-        <li> <a href="#">главная</a></li>
-        <li> <a href="#">посмотреть лоты</a></li>
-        <li> <a href="#">об аукционе</a></li>
+        <li> <a href="#cover">главная</a></li>
+        <li> <a href="#lots">посмотреть лоты</a></li>
+        <li> <a href="#about">об аукционе</a></li>
        </ul>
      </nav>
      <a class="header-logo">
@@ -24,21 +24,41 @@
        src="./images/logo-black.svg"
        alt="Логотип проекта"
      </a>
-     <adress></adress>
+     <adress>
+      <p>+9 999 555 5555</p>
+      <p>info@sobaka.ge</p>
+      <p>наб. Принсенграхт 263- 265, Амстердам</p>
+     </adress>
     </header>
     <main>
-     <section class="cover"></section>
-       <h1 class="cover">Оно тебе не надо</h1>
-       <div class="description"></div>
+     <section class="cover" id =cover""></section>
+       <h1 class="cover-title">оно тебе надо</h1>
+       <div class="description">
+        <p>аукцион вещей, в которые никто не верил</p>
+        <button type="button">сделать ставку</button>
+       </div>
      <section class="lots"></section>
-       <h1 class="lots-cover"></h1>
+       <h1 class="lots-title" id="lots">лоты</h1>
        <ul>
-        <li <a href="#"> фильм режиссера,который бросил школу</a>
-        <</li>
-        <li <a href="#"> книга,где описан один скучный день рекламного агента</a></li>
-        <li <a href="#"> картина,которую повторит даже 5-летний сын маминой подруги</a></li>
+        <li  <a>
+              <h2 class="film-title">Фильм режиссера,который бросил школу</h2>
+              <article class="film">
+              <p class="film-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p> </article> 
+            </a></li>
+        <li <a> 
+          <h2 class="book-title">Книга,где описан один скучный день рекламного агента</h2>
+          <article class="book" class="columns-2">
+          <p class="book-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p> 
+        </article> 
+        </a></li>
+        <li <a> 
+          <h2 class="paint-title">Картина,которую повторит даже 5-летний сын маминой подруги</h2>
+          <article class="paint"> 
+          <p class="paint-text"> Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p> </article> 
+          </a></li>
        </ul>
-     <section class="about"></section>
+     <section class="about" id="about"></section>
+     <h1 class="about-title" id="about">об аукционе</h1>
     </main>
     <footer></footer>
 
