@@ -247,7 +247,6 @@ main {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  gap: 72px;
   padding: 0 24px 180px;
 }
 
@@ -323,4 +322,5 @@ footer {
   justify-self: end;
   list-style-type: none;
   padding-right: 50px;
+  
 }
