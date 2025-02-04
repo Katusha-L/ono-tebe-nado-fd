@@ -1,376 +1,326 @@
 body {
-    font-family:"Raleway", sans-serif;
-    background-color: #FFFFFF; 
-    width:1100px;
-
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  width: 1100px;
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 148px 1fr;
-    align-items:center;
-    padding:90px 50px;   
-
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 90px 50px;
 }
 
 .header_menu {
-    padding-right: 50px;
-    font-size:18px;    
-    line-height:21px;
-
+  padding-right: 50px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header_links_list {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    list-style-type:none;
-    text-decoration:none;
-
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .header__links-list-item {
-    list-style-type:circle;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-
+  list-style-type: circle;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__links_list-item_no-bullit {
-    display: inline-block;
-    text-decoration: none;
-
+  display: inline-block;
+  text-decoration: none;
 }
 
 header_logo-image {
-    width:124px;
-    height:94px;
-
+  width: 124px;
+  height: 94px;
 }
 
 .header__adress {
-    max-width: 1100px;
-    padding-left:196px;
-    line-height: 1.4em;
-    font-size:18px;
-    text-underline-offset: 4px;
-    font-style: normal;
-
+  max-width: 1100px;
+  padding-left: 196px;
+  line-height: 1.4em;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  font-style: normal;
 }
 
 main {
-    width: 1100px; 
-
+  width: 1100px;
 }
 
 .cover {
-    position:relative;
-    background-image: url("../images/cover.jpg");
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .overlay {
-    position: absolute;
-    inset:0;
-    background-color: rgba(0, 0, 0, 0.6);  
-    height:100%;
-    width: 100%;
-    top:0;
-    left:0;  
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
-  }
+.cover_title {
+  padding: 165px 50px 106px 50px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  isolation: isolate;
+  z-index: 1;
+}
 
-  .cover_title {
-    padding: 165px 50px 106px 50px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    isolation: isolate;
-    z-index:1; 
+.aligned_text {
+  color: #ffffff;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+  font-size: 100px;
+}
 
-  }
+.aligned_text_center {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 
-  .aligned_text {
-    color:#FFFFFF;
-    line-height: 115%;
-    letter-spacing:0.3em;
-    font-size:100px;    
-
-  }
-
-  .aligned_text_center {
-    display:flex;
-    justify-content: center;
-    padding-top: 20px;
-
-  }
-
-  .aligned_text_right {
-    display: flex;
-    justify-content: end;
-    padding-top: 20px;
-
-  }
+.aligned_text_right {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+}
 
 .cover_description {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom:50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    gap:78px;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  gap: 78px;
+  align-items: center;
 }
 
 .description_text {
-    font-size: 22px;
-    text-transform: uppercase;
-    color:#FFFFFF;
-    word-spacing: 18px;
-    z-index: 1;
-
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  word-spacing: 18px;
+  z-index: 1;
 }
 
-.bet_button { 
-    border: 1px solid white;
-    padding: 12px 32px;
-    font-size: 22px;
-    text-transform: uppercase;
-    color:#FFFFFF;
-    background-color: transparent;
-    z-index:1;
-
+.bet_button {
+  border: 1px solid white;
+  padding: 12px 32px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  z-index: 1;
 }
 
 .lots {
-    padding:180px 24px 120px 24px ;
-    
-
+  padding: 180px 24px 120px 24px;
 }
 
 .lots_title {
-    padding-left: 40px;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;
-
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .lots_card-list {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 27px; 
-    list-style-type: none;
-    gap:25px;
-
+  display: flex;
+  justify-content: space-around;
+  padding-top: 27px;
+  list-style-type: none;
+  gap: 25px;
 }
 
 .lots_card-list_item {
-    z-index: 1;
-
+  z-index: 1;
 }
 
 .card {
-    color:#FFFFFF;
-    width:334px;
-    padding:48px 40px;
-    min-height:596px; 
-
+  color: #ffffff;
+  width: 334px;
+  padding: 48px 40px;
+  min-height: 596px;
 }
 
 .card_type_film {
-    position:relative;
-    background-image: url(../images/card-lot-01.jpg);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box; 
-
+  position: relative;
+  background-image: url(../images/card-lot-01.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .film_title {
-    position:relative;
-    z-index:1;
-    text-transform:uppercase;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    font-size:22px;
-
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 22px;
 }
 
 .film_text {
-    display: inline-block;
-    position:relative;
-    z-index:1;
-    padding-top:274px;
-    text-decoration:none;
-    font-size:20px;
-
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-top: 274px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .card_type_book {
-    position:relative;
-    background-image: url(../images/card-lot-02.jpg);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-
+  position: relative;
+  background-image: url(../images/card-lot-02.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .book_title {
-    position:relative;
-    z-index:1;
-    text-transform:uppercase;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    font-size:22px;
-
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 22px;
 }
 
 .book_text {
-    display: inline-block;
-    position:relative;
-    z-index:1;
-    padding-top:30px;
-    text-decoration:none;
-    font-size:20px;
-
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .card_type_paint {
-    position:relative;
-    background-image: url(../images/card-lot-03.jpg);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-
+  position: relative;
+  background-image: url(../images/card-lot-03.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .paint_title {
-    position:relative;
-    z-index:1;
-    text-transform:uppercase;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    font-size:22px;
-
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 22px;
 }
 
 .paint_text {
-    display: inline-block;
-    position:relative;
-    z-index:1;
-    padding-top:126px;
-    text-decoration:none;
-    font-size:20px;
-
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-top: 126px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .lots__look-more-link {
-    padding-top:30px;
-    padding-left:40px;
-    font-size:20px;
-    text-transform: lowercase;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 20px;
+  text-transform: lowercase;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .about {
-    display:grid;
-    grid-template-columns:334px 1fr;
-    gap:72px;
-    padding:155px 24px 180px;  
-
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 72px;
+  padding: 0 24px 180px;
 }
 
 .logo_background {
-    border-radius: 60%;
-    width:240px;
-    height:240px;
-    background-color: black;
-
+  border-radius: 60%;
+  width: 240px;
+  height: 240px;
+  background-color: black;
 }
 
 .about__logo {
-    position: relative;
-    bottom:120px;
-   padding:24px 72px 320px 47px;
-
+  margin: 35px 72px 0 47px;
 }
 
 .about__logo-image {
-   position:relative;
-   top:65px;
-   left:51px;
-   max-width:141px;
-
+  position: relative;
+  top: 65px;
+  left: 51px;
+  max-width: 141px;
 }
 
 .about_title {
-    padding-bottom:100px;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;  
-
+  margin-top: 136px;
+  padding-bottom: 100px;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
 .about__text {
-    font-size: 20px;
-    line-height:24px;  
-
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .about_text_p1 {
-    padding-bottom:24px;
-
+  padding-bottom: 24px;
 }
 
 footer {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-evenly;
-    padding:0 0 115px 51px;
-    font-size:18px;
-    font-weight: 400;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  padding: 0 0 115px 51px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .footer_contacts {
-    text-underline-offset: 4px;
-    font-style: normal;
-
+  text-underline-offset: 4px;
+  font-style: normal;
 }
 
 .footer_menu {
-    justify-self: center;
-    text-align: center;
-    list-style-type: none;  
-
+  justify-self: center;
+  text-align: center;
+  list-style-type: none;
 }
 
-.footer__links-list-item { 
-    list-style-type:none;
-    text-decoration:underline;
-    text-underline-offset: 4px;
-
+.footer__links-list-item {
+  list-style-type: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer__links_list-item_no-bullit {
-    list-style-type: none;
-    text-decoration:none;
-
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .social_icons {
-    display:flex;
-    flex-direction: row;
-    gap:48px;
-    justify-self: end;
-    list-style-type: none;
-    padding-right: 50px;
-
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-self: end;
+  list-style-type: none;
+  padding-right: 50px;
 }
-
