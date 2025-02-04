@@ -9,7 +9,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     align-items:center;
-    padding:92px 50px;   
+    padding:90px 50px;   
 
 }
 
@@ -54,6 +54,7 @@ header_logo-image {
     line-height: 1.4em;
     font-size:18px;
     text-underline-offset: 4px;
+    font-style: normal;
 
 }
 
@@ -315,11 +316,6 @@ main {
 
 }
 
-.about__column {
-    display:grid;
-
-}
-
 .about__text {
     font-size: 20px;
     line-height:24px;  
@@ -335,7 +331,7 @@ footer {
     display:grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-evenly;
-    padding:0 0 80px 51px;
+    padding:0 0 115px 51px;
     font-size:18px;
     font-weight: 400;
 
@@ -343,6 +339,7 @@ footer {
 
 .footer_contacts {
     text-underline-offset: 4px;
+    font-style: normal;
 
 }
 
