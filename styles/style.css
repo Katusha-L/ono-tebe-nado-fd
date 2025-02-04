@@ -93,24 +93,24 @@ main {
   }
 
   .aligned_text {
-      color:#FFFFFF;
-      line-height: 115%;
-      letter-spacing:0.3em;
-      font-size:100px;    
+    color:#FFFFFF;
+    line-height: 115%;
+    letter-spacing:0.3em;
+    font-size:100px;    
 
   }
 
   .aligned_text_center {
-      display:flex;
-      justify-content: center;
-      padding-top: 20px;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
 
   }
 
   .aligned_text_right {
-      display: flex;
-      justify-content: end;
-      padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
 
   }
 
@@ -147,6 +147,7 @@ main {
 
 .lots {
     padding:180px 24px 120px 24px ;
+    
 
 }
 
