@@ -1,20 +1,18 @@
 body {
-  font-family: "Raleway", sans-serif;
   background-color: #ffffff;
   width: 1100px;
 }
 
-header {
+.header_menu {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   padding: 90px 50px;
 }
 
-.header_menu {
+.header_nav {
   padding-right: 50px;
   font-size: 18px;
-  line-height: 21px;
 }
 
 .header_links_list {
@@ -36,18 +34,20 @@ header {
   text-decoration: none;
 }
 
-header_logo-image {
+.header_logo-image {
   width: 124px;
   height: 94px;
 }
-
-.header__adress {
-  max-width: 1100px;
-  padding-left: 196px;
-  line-height: 1.4em;
-  font-size: 18px;
+.address{
+  list-style-type: none;
   text-underline-offset: 4px;
   font-style: normal;
+  line-height: 1.4em;
+}
+.header__address {
+  max-width: 1100px;
+  padding-left: 196px;
+  font-size: 18px;
 }
 
 main {
@@ -141,6 +141,7 @@ main {
 .lots_card-list {
   display: flex;
   justify-content: space-around;
+  flex-wrap:wrap;
   padding-top: 27px;
   list-style-type: none;
   gap: 25px;
@@ -151,6 +152,10 @@ main {
 }
 
 .card {
+  position: relative;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
   color: #ffffff;
   width: 334px;
   padding: 48px 40px;
@@ -158,23 +163,18 @@ main {
 }
 
 .card_type_film {
-  position: relative;
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
-  box-sizing: border-box;
 }
 
-.film_title {
+.card__title{
   position: relative;
-  z-index: 1;
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 4px;
   font-size: 22px;
 }
 
-.film_text {
+.film__text {
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -184,58 +184,31 @@ main {
 }
 
 .card_type_book {
-  position: relative;
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
-  box-sizing: border-box;
 }
 
-.book_title {
-  position: relative;
-  z-index: 1;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  font-size: 22px;
-}
-
-.book_text {
+.book__text {
   display: inline-block;
   position: relative;
-  z-index: 1;
   padding-top: 30px;
   text-decoration: none;
   font-size: 20px;
 }
 
 .card_type_paint {
-  position: relative;
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
-  box-sizing: border-box;
 }
 
-.paint_title {
-  position: relative;
-  z-index: 1;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  font-size: 22px;
-}
-
-.paint_text {
+.paint__text {
   display: inline-block;
   position: relative;
-  z-index: 1;
   padding-top: 126px;
   text-decoration: none;
   font-size: 20px;
 }
 
 .lots__look-more-link {
+  position:absolute;
   padding-top: 30px;
   padding-left: 40px;
   font-size: 20px;
@@ -247,7 +220,7 @@ main {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 0 24px 180px;
+  padding: 120px 24px 180px 24px;
 }
 
 .logo_background {
@@ -258,13 +231,15 @@ main {
 }
 
 .about__logo {
-  margin: 35px 72px 0 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 500px;
 }
 
 .about__logo-image {
-  position: relative;
-  top: 65px;
-  left: 51px;
+  margin-top: 65px;
+  margin-left:50px;
   max-width: 141px;
 }
 
@@ -276,15 +251,15 @@ main {
 }
 
 .about__text {
+  display:flex;
+  flex-direction: column;
+  gap:25px;
+  max-width: 693px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 22px;
 }
 
-.about_text_p1 {
-  padding-bottom: 24px;
-}
-
-footer {
+.footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
@@ -293,25 +268,19 @@ footer {
   font-weight: 400;
 }
 
-.footer_contacts {
-  text-underline-offset: 4px;
-  font-style: normal;
-  line-height: 1.4em;
-}
-
 .footer_menu {
   justify-self: center;
   text-align: center;
   list-style-type: none;
 }
 
-.footer__links-list-item {
+.footer__link-list-item {
   list-style-type: none;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.footer__links_list-item_no-bullit {
+.footer__menu-link_active {
   list-style-type: none;
   text-decoration: none;
 }
