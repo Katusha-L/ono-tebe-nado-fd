@@ -92,7 +92,6 @@ main {
   }
 
   .aligned_text {
-      line-height: 1;
       color:#FFFFFF;
       line-height: 115%;
       letter-spacing:0.3em;
@@ -135,13 +134,13 @@ main {
 }
 
 .bet_button { 
-   border: 1px solid white;
-   padding: 12px 32px;
-   font-size: 22px;
-   text-transform: uppercase;
-   color:#FFFFFF;
-   background-color: transparent;
-   z-index:1;
+    border: 1px solid white;
+    padding: 12px 32px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    background-color: transparent;
+    z-index:1;
 
 }
 
@@ -374,6 +373,6 @@ footer {
     justify-self: end;
     list-style-type: none;
     padding-right: 50px;
-    
+
 }
 
