@@ -150,7 +150,7 @@ main {
 }
 
 .card {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
@@ -201,7 +201,7 @@ main {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 120px 24px 0px 24px;
+  padding: 100px 24px 0px 24px;
 }
 
 .logo_background {
